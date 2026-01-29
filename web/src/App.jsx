@@ -179,8 +179,8 @@ function App() {
           </div>
           <div className="glass" style={{ padding: '1.5rem', borderRadius: '15px' }}>
             <div style={{ background: '#ffde00', width: '30px', height: '30px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontWeight: 'bold', marginBottom: '1rem' }}>4</div>
-            <h4 style={{ color: '#ffde00', marginBottom: '0.5rem' }}>Use Aero</h4>
-            <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>The AI window will open. Start waving to control your PC!</p>
+            <h4 style={{ color: '#ffde00', marginBottom: '0.5rem' }}>Use & Exit</h4>
+            <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>Start waving! To stop, move your physical mouse to any corner of the screen or press <b>Esc</b>.</p>
           </div>
         </div>
 

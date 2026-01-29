@@ -54,13 +54,30 @@ npm run dev
 
 ---
 
-## 🛠️ Tech Stack
+## � How to Stop
+To instantly deactivate the controller:
+1. **Failsafe**: Move your physical mouse to any corner of the screen.
+2. **Keyboard**: Press the **'Esc'** or **'q'** key.
+3. **Terminal**: Close the command window or press **Ctrl+C**.
+
+---
+
+## �🛠️ Tech Stack
 - **Python**: OpenCV, MediaPipe, PyAutoGUI, NumPy.
 - **Web**: React, Vite, MediaPipe JS, Framer Motion, Lucide React.
 
 ---
 
-## 👨‍💻 Developed by
+## � Deployment (Web)
+To host the futuristic dashboard on **Vercel**:
+1. Go to [Vercel.com](https://vercel.com) and click **"Add New Project"**.
+2. Connect your **aero-mouse** GitHub repository.
+3. **IMPORTANT**: In the "Root Directory" setting, select the `web` folder.
+4. Click **Deploy**.
+
+---
+
+## �👨‍💻 Developed by
 **Fawaz** - [GitHub](https://github.com/Fawaz-cmd/aero-mouse)
 
 ## 📦 Creating an Executable (.exe)

@@ -26,7 +26,11 @@ if %errorlevel% neq 0 (
 echo [2/2] Starting Aero Mouse...
 echo.
 echo TIP: Move your hand into the camera view to control your mouse.
-echo TIP: Close the black window or press Ctrl+C to stop.
+echo.
+echo [HOW TO STOP]
+echo 1. Move your PHYSICAL MOUSE to any corner of the screen.
+echo 2. OR press the 'Esc' key on your keyboard.
+echo 3. OR close this window.
 echo.
 python ai_mouse.py
 pause
