@@ -61,7 +61,7 @@ npm run dev
 ---
 
 ## 👨‍💻 Developed by
-**Fawaz** - [GitHub](https://github.com/YOUR_USERNAME)
+**Fawaz** - [GitHub](https://github.com/Fawaz-cmd/aero-mouse)
 
 ## 📦 Creating an Executable (.exe)
 

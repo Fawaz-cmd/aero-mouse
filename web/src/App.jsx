@@ -172,7 +172,7 @@ function App() {
 
         <button className="btn-primary"
           onClick={() => {
-            const repoUrl = "https://github.com/YOUR_USERNAME/AI-Mouse-Controller";
+            const repoUrl = "https://github.com/Fawaz-cmd/aero-mouse";
             if (repoUrl.includes("YOUR_USERNAME")) {
               alert("Please update the repository URL in App.jsx to your own GitHub repo to enable the download!");
             } else {
