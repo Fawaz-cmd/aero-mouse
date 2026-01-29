@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
-import mediapipe.python.solutions.hands as mp_hands
-import mediapipe.python.solutions.drawing_utils as mp_draw
+import mediapipe.solutions.hands as mp_hands
+import mediapipe.solutions.drawing_utils as mp_draw
 import pyautogui
 import numpy as np
 import time
@@ -109,7 +109,7 @@ def main():
     print("- Right Click: MIDDLE + THUMB pinch")
     print("- Double Click: RING + THUMB pinch")
     print("- Scroll: INDEX + MIDDLE up (move hand up/down)")
-    print("- Press 'q' to quit.")
+    print("- Press 'q' or 'Esc' to quit.")
 
     while cap.isOpened():
         success, img = cap.read()
@@ -215,8 +215,9 @@ def main():
         # Display frame
         cv2.imshow("AI Mouse Controller (Advanced)", img)
 
-        # Exit on 'q'
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        # Exit on 'q' or 'Esc'
+        key = cv2.waitKey(1) & 0xFF
+        if key == ord('q') or key == 27:
             break
 
     # Cleanup
