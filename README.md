@@ -1,52 +1,67 @@
 # AI Mouse Controller using Hand Gestures
 
 A real-time, AI-powered mouse controller that uses your webcam and hand gestures to interact with your computer. Built with OpenCV and MediaPipe.
+# AI Mouse Controller (Aero Mouse) 🚀🌌
 
-## ✨ Features
+A futuristic AI-powered hand tracking ecosystem that allows you to control your computer and browser using simple hand gestures. 
 
-- **Smooth Mouse Movement**: Cursor follows your index finger tip with jitter reduction.
-- **Natural Gestures**:
-    - **Left Click**: Pinch Thumb + Index Finger.
-    - **Right Click**: Pinch Thumb + Middle Finger.
-    - **Double Click**: Pinch Thumb + Ring Finger.
-    - **Scrolling**: Raise Index + Middle fingers and move hand vertically.
-    - **Left Drag**: Hold the Index + Thumb pinch to drag items.
-- **On-Screen Display**: Real-time feedback monitor showing the current mode and gesture status.
-- **Safety Failsafe**: Move your physical mouse to any corner of the screen to stop the script instantly.
+## 🌟 Features
+- **Real-time Hand Tracking**: Powered by MediaPipe.
+- **System-Wide Control**: Control your OS mouse, perform clicks, and scroll.
+- **Futuristic Web Demo**: A high-end React-based landing page with a neural interface.
+- **Advanced Gestures**: Support for Right Click, Double Click, and Smooth Scrolling.
 
-## 🛠️ Installation
+---
 
-1. **Clone or Download** this repository.
-2. **Install Python 3.12+** (if not already installed).
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## 🚀 How to Run
+## � Getting Started
 
 ### 1. Local Python Controller (Full OS Control)
-Run the main script from the root folder:
+This script runs on your machine and controls your actual Windows mouse cursor.
+
+**Installation:**
+```bash
+pip install -r requirements.txt
+```
+
+**Run:**
 ```bash
 python ai_mouse.py
 ```
 
+---
+
 ### 2. Futuristic Web Demo (Browser Only)
-Navigate to the `web` folder first:
+A stunning website to showcase the technology.
+
+**Setup:**
 ```bash
 cd web
+npm install
 npm run dev
 ```
 
+---
+
 ## 🎮 Gesture Guide
 
-| Action | Gesture | Visual Feedback |
+| Action | Gesture | Feedback Color |
 | :--- | :--- | :--- |
-| **Move Cursor** | Index Finger Up | Green Circle |
-| **Left Click** | Index + Thumb Pinch | Red Line |
-| **Right Click** | Middle + Thumb Pinch | Yellow Line |
-| **Double Click**| Ring + Thumb Pinch | Magenta Line |
-| **Scroll Mode** | Index + Middle Both Up | Orange Circles |
+| **Move Cursor** | Raised Index Finger | Green |
+| **Left Click** | Index + Thumb Pinch | Red / Purple |
+| **Right Click** | Middle + Thumb Pinch | Yellow |
+| **Double Click**| Ring + Thumb Pinch | Magenta / Pink |
+| **Scroll** | Index + Middle Both Up | Orange / Green |
+
+---
+
+## 🛠️ Tech Stack
+- **Python**: OpenCV, MediaPipe, PyAutoGUI, NumPy.
+- **Web**: React, Vite, MediaPipe JS, Framer Motion, Lucide React.
+
+---
+
+## 👨‍💻 Developed by
+**Fawaz** - [GitHub](https://github.com/YOUR_USERNAME)
 
 ## 📦 Creating an Executable (.exe)
 
