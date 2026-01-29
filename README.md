@@ -62,22 +62,24 @@ To instantly deactivate the controller:
 
 ---
 
-## �🛠️ Tech Stack
+## 🛠️ Tech Stack
 - **Python**: OpenCV, MediaPipe, PyAutoGUI, NumPy.
 - **Web**: React, Vite, MediaPipe JS, Framer Motion, Lucide React.
 
 ---
 
-## � Deployment (Web)
+## 🚀 Deployment (Web)
 To host the futuristic dashboard on **Vercel**:
 1. Go to [Vercel.com](https://vercel.com) and click **"Add New Project"**.
 2. Connect your **aero-mouse** GitHub repository.
-3. **IMPORTANT**: In the "Root Directory" setting, select the `web` folder.
+3. > [!IMPORTANT]
+   > In the **"Project Settings"** or during import, you must set the **"Root Directory"** to **`web`**. 
+   > If you see a 404, go to **Settings > General > Root Directory**, change it to `web`, and Save.
 4. Click **Deploy**.
 
 ---
 
-## �👨‍💻 Developed by
+## 👨‍💻 Developed by
 **Fawaz** - [GitHub](https://github.com/Fawaz-cmd/aero-mouse)
 
 ## 📦 Creating an Executable (.exe)
