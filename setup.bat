@@ -16,7 +16,7 @@ if %errorlevel% neq 0 (
 )
 
 echo [1/2] Installing required AI libraries...
-pip install -r requirements.txt --quiet
+python -m pip install -r requirements.txt --quiet
 if %errorlevel% neq 0 (
     echo [ERROR] Installation failed. Check your internet connection.
     pause

@@ -1,7 +1,18 @@
 import cv2
-import mediapipe as mp
-import mediapipe.solutions.hands as mp_hands
-import mediapipe.solutions.drawing_utils as mp_draw
+try:
+    import mediapipe as mp
+    try:
+        import mediapipe.solutions.hands as mp_hands
+        import mediapipe.solutions.drawing_utils as mp_draw
+    except ImportError:
+        # Fallback for older or specific MediaPipe versions
+        import mediapipe.python.solutions.hands as mp_hands
+        import mediapipe.python.solutions.drawing_utils as mp_draw
+except ImportError:
+    print("\n[CRITICAL ERROR] MediaPipe is not installed correctly.")
+    print("Please run 'setup.bat' again or run 'pip install mediapipe' manually.")
+    input("Press Enter to close...")
+    exit()
 import pyautogui
 import numpy as np
 import time
