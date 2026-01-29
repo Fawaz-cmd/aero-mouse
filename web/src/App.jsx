@@ -161,13 +161,27 @@ function App() {
           Download the <b>local Python bridge</b> to unlock full system-wide hand control.
         </p>
 
-        <div className="glass" style={{ maxWidth: '600px', margin: '0 auto 2rem', padding: '2rem', textAlign: 'left' }}>
-          <h4 style={{ color: 'var(--neon-blue)', marginBottom: '1rem' }}>Local Setup Steps:</h4>
-          <ol style={{ paddingLeft: '1.5rem', color: 'var(--text-secondary)' }}>
-            <li style={{ marginBottom: '0.8rem' }}>Ensure you have <b>Python 3.12+</b> installed.</li>
-            <li style={{ marginBottom: '0.8rem' }}>Install requirements: <code style={{ background: '#1a1a1a', padding: '2px 6px', borderRadius: '4px' }}>pip install -r requirements.txt</code></li>
-            <li style={{ marginBottom: '0.8rem' }}>Run the controller: <code style={{ background: '#1a1a1a', padding: '2px 6px', borderRadius: '4px' }}>python ai_mouse.py</code></li>
-          </ol>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1.5rem', maxWidth: '1000px', margin: '0 auto 3rem', textAlign: 'left' }}>
+          <div className="glass" style={{ padding: '1.5rem', borderRadius: '15px' }}>
+            <div style={{ background: 'var(--neon-blue)', width: '30px', height: '30px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontWeight: 'bold', marginBottom: '1rem' }}>1</div>
+            <h4 style={{ color: 'var(--neon-blue)', marginBottom: '0.5rem' }}>Extract ZIP</h4>
+            <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>Right-click the downloaded file and select "Extract All".</p>
+          </div>
+          <div className="glass" style={{ padding: '1.5rem', borderRadius: '15px' }}>
+            <div style={{ background: 'var(--neon-purple)', width: '30px', height: '30px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontWeight: 'bold', marginBottom: '1rem' }}>2</div>
+            <h4 style={{ color: 'var(--neon-purple)', marginBottom: '0.5rem' }}>Run Setup</h4>
+            <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>Double-click the <b>setup.bat</b> file in the folder.</p>
+          </div>
+          <div className="glass" style={{ padding: '1.5rem', borderRadius: '15px' }}>
+            <div style={{ background: '#00ff62', width: '30px', height: '30px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontWeight: 'bold', marginBottom: '1rem' }}>3</div>
+            <h4 style={{ color: '#00ff62', marginBottom: '0.5rem' }}>Grant Access</h4>
+            <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>If Windows warns you, click "More Info" then "Run Anyway".</p>
+          </div>
+          <div className="glass" style={{ padding: '1.5rem', borderRadius: '15px' }}>
+            <div style={{ background: '#ffde00', width: '30px', height: '30px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontWeight: 'bold', marginBottom: '1rem' }}>4</div>
+            <h4 style={{ color: '#ffde00', marginBottom: '0.5rem' }}>Use Aero</h4>
+            <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>The AI window will open. Start waving to control your PC!</p>
+          </div>
         </div>
 
         <button className="btn-primary"
